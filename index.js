@@ -28,6 +28,7 @@ form.addEventListener('submit', event => {
         showError("Please provide a valid email address");
     } else {
         emailInput.value = "";
+        alert("The force is strong in you, sucess!!!!")
     }
 });
 
